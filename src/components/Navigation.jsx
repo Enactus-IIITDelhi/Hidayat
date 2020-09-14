@@ -15,7 +15,7 @@ function Navigation() {
         </NavbarBrand>
 
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        
+
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar className>
             <NavItem className="mr-4 mt-2 mb-2">
