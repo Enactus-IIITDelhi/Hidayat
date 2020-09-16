@@ -2,6 +2,7 @@
 
 :root {
   --main-blue-color: #00b1ff;
+  --soft-light-grey: #eee;
 }
 
 a, a:hover {
@@ -17,14 +18,21 @@ a, a:hover {
   color: var(--main-blue-color) !important;
 }
 
+.bg-main-blue {
+  background-color: var(--main-blue-color) !important;
+}
+
+.bg-soft-grey {
+  background-color: var(--soft-light-grey) !important;
+}
+
 /* End of Basic Utilities */
 
 /* Navigation */
 
 .social .btn {
-  width: 40px;
-  height: 40px;
-  margin-left: 10px;
+  width: 39px;
+  height: 39px;
 }
 
 .nav-item a {
@@ -35,6 +43,9 @@ a, a:hover {
 
 .nav-item a:hover {
   color: var(--main-blue-color);
+  position: relative;
+  top: -3px;
+  transition: 0.5s;
 }
 
 /* End of Navigation */
@@ -45,22 +56,23 @@ a, a:hover {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 150px;
+  min-height: 125px;
 }
-.ruler{
 
+.banner .content .title {
+  min-width: 175px;
+}
+
+@media (min-width: 768px){
+  .banner .right-margin {
+    border-right: 3px solid var(--soft-light-grey);
+  }
 }
 
 /* Contact */
 .ruler{
-  border-top: 4px solid #eee;
+  border-top: 4px solid var(--soft-light-grey);
   width:30%;
-  float:left;
 }
 /* Blogs */
-.ruler-right{
-  border-top: 4px solid #eee;
-  width:30%;
-  float:right;
-}
 /* End of Home Page */

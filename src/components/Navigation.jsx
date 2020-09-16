@@ -19,13 +19,19 @@ function Navigation() {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar className>
             <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/">ABOUT</Link>
+              <Link className="m-auto text-center" to="/">ABOUT</Link>
+            </NavItem>
+            <NavItem className="mr-4 mt-2 mb-2">
+              <Link to="/">RESOURCES</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
               <Link to="/">BLOG</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
               <Link to="/">CONTACT</Link>
+            </NavItem>
+            <NavItem className="mr-4 mt-2 mb-2">
+              <Link to="/">LOGIN</Link>
             </NavItem>
           </Nav>
 
@@ -35,11 +41,11 @@ function Navigation() {
                 <span className="fa fa-twitter"></span>
               </Button>
 
-              <Button color="dark" className="rounded-circle">
+              <Button color="dark" className="rounded-circle ml-2">
                 <span className="fa fa-facebook"></span>
               </Button>
 
-              <Button color="dark" className="rounded-circle">
+              <Button color="dark" className="rounded-circle ml-2">
                 <span className="fa fa-instagram"></span>
               </Button>
             </NavItem>

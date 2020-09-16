@@ -10,9 +10,9 @@ function Banner() {
         {
           data.map((str) => {
             return (
-              <Col xs="12" sm="4" className="mb-5">
+              <Col xs="12" sm="4" className={`mb-5 ${(data.indexOf(str)!==data.length-1)?"right-margin":""}`}>
                 <div className="content d-flex" style={{backgroundImage: "url(assets/HomePage/bg-shape.svg)"}} >
-                  <h4 className="d-flex m-auto text-center font-weight-bold w-s-50">{str}</h4>
+                  <h4 className="title d-flex m-auto text-center font-weight-bold w-50">{str}</h4>
                 </div>
               </Col>
             );
