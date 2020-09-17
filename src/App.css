@@ -26,6 +26,7 @@ a, a:hover {
   background-color: var(--soft-light-grey) !important;
 }
 
+
 /* End of Basic Utilities */
 
 /* Navigation */
@@ -71,7 +72,7 @@ a, a:hover {
 
 /* Contact */
 .ruler{
-  border-top: 4px solid var(--soft-light-grey);
+  border-top: 4px solid #d1d7de;
   width:30%;
 }
 /* Blogs */
