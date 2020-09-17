@@ -10,6 +10,11 @@ a, a:hover {
   color: auto;
 }
 
+.BrainhubCarousel__arrows {
+  background-color: var(--main-blue-color) !important;
+  border-radius: 50%;
+}
+
 /* End of Globals */
 
 /* Basic Utilities */
@@ -26,6 +31,9 @@ a, a:hover {
   background-color: var(--soft-light-grey) !important;
 }
 
+.border-radius-30 {
+  border-radius: 30px !important;
+}
 
 /* End of Basic Utilities */
 
