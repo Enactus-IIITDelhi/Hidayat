@@ -85,3 +85,11 @@ a, a:hover {
 }
 /* Blogs */
 /* End of Home Page */
+
+/* Resources */
+.hover-fill-lightgrey:hover {
+  background: var(--soft-light-grey);
+  opacity: 0.8;
+  transition: 1s;
+}
+/* End of Resources */
