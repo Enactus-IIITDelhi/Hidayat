@@ -4,7 +4,7 @@ import { Container, Col, Row } from 'reactstrap';
 
 function TestCard({name, image, link}) {
     return (
-        <Col className="p-4 p-md-1 p-lg-5 hover-fill-lightgrey" sm="6" lg="4">
+        <Col className="pt-4 pt-md-1 pt-lg-5 pb-4 pb-md-1 pb-lg-5 hover-fill-lightgrey" sm="6" lg="4" xl="3">
             <Link to={link}>
                 <div width="100%" fill="black" className="d-flex">
                     <img width="100%" className="d-flex m-auto" src={image} alt={name} />
