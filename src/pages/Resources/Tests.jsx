@@ -7,7 +7,7 @@ function TestCard({name, image, link}) {
         <Col className="p-4 p-md-1 p-lg-5 hover-fill-lightgrey" sm="6" lg="4">
             <Link to={link}>
                 <div width="100%" fill="black" className="d-flex">
-                    <img width="100%" className="d-flex m-auto" src={image} alt={`${name} image`} />
+                    <img width="100%" className="d-flex m-auto" src={image} alt={name} />
                 </div>
 
                 <div width="100%" fill="black">
