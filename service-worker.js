@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Hidayat/precache-manifest.707ef350c2ed33eecdabab5f7bde70fe.js"
+  "/Hidayat/precache-manifest.2c9031769b2893c1f2f97a53645178d8.js"
 );
 
 self.addEventListener('message', (event) => {
