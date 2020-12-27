@@ -60,7 +60,7 @@ function BlogCard(props) {
   return (
     <div className="pl-md-2 pr-md-2 pt-5 pb-5 ml-1 mr-1">
       <Card className="border border-dark">
-        <CardImg className="border-bottom border-dark" top width="100%" src="/assets/HomePage/dummy.png" alt="Card image cap" />
+        <CardImg className="border-bottom border-dark" top width="100%" src="assets/HomePage/dummy.png" alt="Card image cap" />
         <CardBody>
           <CardTitle className="h3">Story {props.storyNo}</CardTitle>
           <CardText>
