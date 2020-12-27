@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Hidayat/static/css/main.1e70cd55.chunk.css",
-    "main.js": "/Hidayat/static/js/main.f7ffa434.chunk.js",
-    "main.js.map": "/Hidayat/static/js/main.f7ffa434.chunk.js.map",
+    "main.js": "/Hidayat/static/js/main.68a28b95.chunk.js",
+    "main.js.map": "/Hidayat/static/js/main.68a28b95.chunk.js.map",
     "runtime-main.js": "/Hidayat/static/js/runtime-main.dc21f9e3.js",
     "runtime-main.js.map": "/Hidayat/static/js/runtime-main.dc21f9e3.js.map",
     "static/css/2.ed0364cd.chunk.css": "/Hidayat/static/css/2.ed0364cd.chunk.css",
     "static/js/2.9d7f5ceb.chunk.js": "/Hidayat/static/js/2.9d7f5ceb.chunk.js",
     "static/js/2.9d7f5ceb.chunk.js.map": "/Hidayat/static/js/2.9d7f5ceb.chunk.js.map",
     "index.html": "/Hidayat/index.html",
-    "precache-manifest.2c9031769b2893c1f2f97a53645178d8.js": "/Hidayat/precache-manifest.2c9031769b2893c1f2f97a53645178d8.js",
+    "precache-manifest.1245c0a982e13ffb32823120f2c83597.js": "/Hidayat/precache-manifest.1245c0a982e13ffb32823120f2c83597.js",
     "service-worker.js": "/Hidayat/service-worker.js",
     "static/css/2.ed0364cd.chunk.css.map": "/Hidayat/static/css/2.ed0364cd.chunk.css.map",
     "static/css/main.1e70cd55.chunk.css.map": "/Hidayat/static/css/main.1e70cd55.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.ed0364cd.chunk.css",
     "static/js/2.9d7f5ceb.chunk.js",
     "static/css/main.1e70cd55.chunk.css",
-    "static/js/main.f7ffa434.chunk.js"
+    "static/js/main.68a28b95.chunk.js"
   ]
 }
