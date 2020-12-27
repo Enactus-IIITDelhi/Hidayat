@@ -22,7 +22,7 @@ function Navigation() {
               <Link className="m-auto text-center" to="/">ABOUT</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/">RESOURCES</Link>
+              <Link to="/resources">RESOURCES</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
               <Link to="/">BLOG</Link>
