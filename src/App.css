@@ -2,7 +2,7 @@
 
 :root {
   --main-blue-color: #00b1ff;
-  --soft-light-grey: #eee;
+  --soft-light-grey: #e9ecef;
 }
 
 a, a:hover {
@@ -90,6 +90,12 @@ a, a:hover {
 .hover-fill-lightgrey:hover {
   background: var(--soft-light-grey);
   opacity: 0.8;
+  transition: 1s;
+}
+
+.quiz-name:hover {
+  transform: scale(1.1);
+  transform-origin: 10%;
   transition: 1s;
 }
 /* End of Resources */

@@ -17,7 +17,7 @@ function Navigation() {
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar className>
+          <Nav navbar>
             <NavItem className="mr-4 mt-2 mb-2">
               <Link className="m-auto text-center" to="/">ABOUT</Link>
             </NavItem>
