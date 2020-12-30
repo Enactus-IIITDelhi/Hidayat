@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import './App.css';
 
 import Navigation from './components/Navigation';
@@ -12,10 +12,10 @@ function App() {
       <div className="App">
         <Navigation />
 
-        <Switch>
-          <Route exact path='/' component={Home} ></Route>
-          <Route exact path='/resources' component={Resources} ></Route>
-        </Switch>
+        <Routes>
+          <Route path='/' element={<Home />} ></Route>
+          <Route path='resources/*' element={<Resources />} ></Route>
+        </Routes>
 
       </div>
     </HashRouter>

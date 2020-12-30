@@ -28,37 +28,37 @@ function Tests() {
                         <TestCard
                             name="Language Aptitude"
                             image="assets/Resources/language.png"
-                            link="/"
+                            link="/resources/language"
                         />
                         <TestCard
                             name="Numerical Aptitude"
                             image="assets/Resources/numerical.png"
-                            link="/"
+                            link="/resources/numerical"
                         />
                         <TestCard
                             name="Abstract Reasoning"
                             image="assets/Resources/abstract.png"
-                            link="/"
+                            link="/resources/abstract"
                         />
                         <TestCard
                             name="Verbal Reasoning"
                             image="assets/Resources/verbal.png"
-                            link="/"
+                            link="/resources/verbal"
                         />
                         <TestCard
                             name="Mechanical Reasoning"
                             image="assets/Resources/abstract.png"
-                            link="/"
+                            link="/resources/mechanical"
                         />
                         <TestCard
                             name="Spatial Aptitude"
                             image="assets/Resources/spatial.png"
-                            link="/"
+                            link="/resources/spatial"
                         />
                         <TestCard
                             name="Perceptual Aptitude"
                             image="assets/Resources/perceptual.png"
-                            link="/"
+                            link="/resources/perceptual"
                         />
                         </Row>
                     </Container>
