@@ -11,27 +11,27 @@ function Navigation() {
     <Container fluid className="navigation">
       <Navbar light expand="md">
         <NavbarBrand className="mr-5" href="/">
-          <img src="logo.svg" alt="H" height="50" />
+          <img src="HidayatLogo.png" alt="H" height="60" />
         </NavbarBrand>
 
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
-            <NavItem className="mr-4 mt-2 mb-2">
+            <NavItem className="mr-4 mt-2 mb-2" >
               <Link className="m-auto text-center" to="/">ABOUT</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
               <Link to="/resources">RESOURCES</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/">BLOG</Link>
+              <Link to="/blog">BLOG</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/">CONTACT</Link>
+              <Link to="/joinUs">JOIN US</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/">LOGIN</Link>
+              <Link to="/">SIGN UP/LOGIN</Link>
             </NavItem>
           </Nav>
 

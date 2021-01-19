@@ -7,15 +7,13 @@ function MainJumbotron({title, subtitle, image, imageAlign}) {
             <Container fluid>
                 <Row>
                 <Col lg="6" className="d-flex">
-                    <div className="d-flex flex-column m-auto">
-                    <h1 className="mt-5 text-main-blue">{title}</h1>
-
-                    <h4 className="mt-2 mb-5">{subtitle}</h4>
-                    </div>
-                </Col>
-
-                <Col lg="6" className="d-flex">
                     <img src={image} alt="Banner" width="100%" className="d-flex m-auto" />
+                </Col>
+                <Col lg="6" className="d-flex">
+                    <div className="d-flex flex-column m-auto">
+                    <h1 className="mt-5">{title}</h1>
+                    <h4 className="mt-2 mb-5 text-main-blue">{subtitle}</h4>
+                    </div>
                 </Col>
                 </Row>
             </Container>

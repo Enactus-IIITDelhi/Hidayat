@@ -99,3 +99,15 @@ a, a:hover {
   transition: 1s;
 }
 /* End of Resources */
+
+/* JoinUs Page */
+.middle{
+  text-align: center;
+}
+.join-subheading{
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 120%;
+
+}
+/* End of JoinUs Page */
