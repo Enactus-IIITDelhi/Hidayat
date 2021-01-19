@@ -10,7 +10,7 @@ function joinUs() {
         <>
             <Jumbo title="Lorem ipsum dolor sit amet, consecteturadipiscing elit."  
                 subtitle="Lorem ipsum dolor sit amet, conse cteturadipiscing elit. Etiam quis sapien vitae mauris interdum Lorem ipsum dolor sit amet, conse cteturadipiscing elit. Etiam quis sapien vitae mauris interdum" 
-                image="assets/joinUsPage/BannerImage.png"  />
+                image="assets/joinUsPage/bannerImage.png"  />
             <Members />
             <JoinTeam />
         </>
