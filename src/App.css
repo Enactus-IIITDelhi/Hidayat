@@ -112,6 +112,9 @@ a, a:hover {
   font-weight: bold;
   padding-top: 20px;
   font-size: 120%;
-
 }
+.no_border{
+  border:none;
+}
+
 /* End of JoinUs Page */
