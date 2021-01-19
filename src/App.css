@@ -118,3 +118,11 @@ a, a:hover {
 }
 
 /* End of JoinUs Page */
+
+/* Blog Section */
+.card-shadow {
+  width: 90%;
+  box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* End of Blog Section */
