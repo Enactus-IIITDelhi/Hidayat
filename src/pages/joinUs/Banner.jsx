@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Jumbotron, Row, Col } from 'reactstrap';
 
-function MainJumbotron({title, subtitle, image, imageAlign}) {
+function MainJumbotron({title, subtitle, image}) {
     return (
         <Jumbotron className="jumbo pt-0 pb-0">
             <Container fluid>
