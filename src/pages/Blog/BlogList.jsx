@@ -7,7 +7,7 @@ function BlogList()
 {
     return (
         <>
-        <div class="row pr-5 pl-5 m-0 ">
+        <div class="row pr-5 pl-5 pt-5 m-0 ">
                 {
                     blogs.map((blog, index)=>{
                         return(
@@ -16,7 +16,7 @@ function BlogList()
                                 <CardImg top width="100%" src={blog.imagePath} alt={blog.title} />
                                 <CardBody>
                                 <CardText>{blog.plot}</CardText>
-                                <Button className="bg-main-blue pull-right pl-5 pr-5" style={ {borderRadius:"30px"}} size="lg" >Read More </Button>
+                                <Button className="bg-main-blue pull-right pl-3 pr-3" style={ {borderRadius:"30px"}} size="lg" >Read More </Button>
                                 </CardBody>
                             </Card>
                         </div>
