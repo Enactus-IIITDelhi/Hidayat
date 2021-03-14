@@ -5,10 +5,10 @@ import {Link} from 'react-router-dom'
 function SignUp(props) {
 
     return (
-        <Container>
+        <Container className="mt-5">
             <Row className="border-radius-30 shadow">
                 <Col md="6" className="d-none d-md d-lg-flex p-0">
-                    <img src="assets/login.png" alt="banner image" className="d-flex m-auto w-100 border-radius-left-30"></img>
+                    <img src="assets/login.png" alt="banner" className="d-flex m-auto w-100 border-radius-left-30"></img>
                 </Col>
                 
                 <Col md="6" xs="12">
