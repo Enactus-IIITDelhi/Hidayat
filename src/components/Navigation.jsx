@@ -31,7 +31,10 @@ function Navigation() {
               <Link to="/joinUs">JOIN US</Link>
             </NavItem>
             <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/">SIGN UP/LOGIN</Link>
+              <Link to="/signup">SIGN UP</Link>
+            </NavItem>
+            <NavItem className="mr-4 mt-2 mb-2">
+              <Link to="/login">LOGIN</Link>
             </NavItem>
           </Nav>
 

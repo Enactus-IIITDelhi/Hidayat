@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import Resources from './pages/Resources';
 import JoinUs from './pages/joinUs';
 import Blog from './pages/Blog';
+import SignUp from './components/SignUp'
+import Login from './components/Login'
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
           <Route path='resources/*' element={<Resources />} ></Route>
           <Route path='blog/*' element={<Blog />} ></Route>
           <Route path='joinUs/*' element={<JoinUs/>}></Route>
+          <Route path='joinUs/*' element={<JoinUs/>}></Route>
+          <Route path='login' element={<Login/>}></Route>
+          <Route path='signup' element={<SignUp/>}></Route>
         </Routes>
-        
 
       </div>
     </HashRouter>

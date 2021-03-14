@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardBody, CardImg, CardTitle, CardText, Button} from 'reactstrap';
+import {Button} from 'reactstrap';
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import blogs from './blogs';

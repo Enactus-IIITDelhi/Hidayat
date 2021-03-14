@@ -35,6 +35,11 @@ a, a:hover {
   border-radius: 30px !important;
 }
 
+.border-radius-left-30 {
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+}
+
 .clear-fix {
   clear: both !important;
 }
