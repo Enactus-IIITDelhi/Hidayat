@@ -6,7 +6,7 @@ import blogs from './blogs';
 
 function Banner(props) {
   return (
-    <div className="container-fluid mb-5">
+    <div className="container-fluid mb-5 bg-soft-grey">
       <Carousel
         slidesPerPage={1}
         centered
@@ -15,7 +15,7 @@ function Banner(props) {
         autoPlay={6000}
         animationSpeed={1500}
         breakpoints={{
-          1200: {
+          768: {
             arrows: false
           }
         }}
@@ -32,13 +32,13 @@ function Banner(props) {
 function BlogCard(props) {
   return (
     <div>
-    <div className="container-fluid row">
-      <div className="col-xs-12 col-lg-5 d-flex">
+    <div className="container-fluid row pl-3 pr-3">
+      <div className="col-xs-12 col-sm-5 d-flex">
           <img className="d-flex m-auto" src={props.image} width="80%"></img>
       </div>
       
-      <div className="col-xs-12 col-lg-7">
-        <h3 className="text-main-blue pt-lg-5 pt-2">
+      <div className="col-xs-12 col-sm-7 pt-3 pb-3">
+        <h3 className="text-main-blue pt-lg-5 pt-3">
             {props.title} 
         </h3>
         <p>
