@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Hidayat/static/css/main.bb1f4e74.chunk.css",
-    "main.js": "/Hidayat/static/js/main.53bb7885.chunk.js",
-    "main.js.map": "/Hidayat/static/js/main.53bb7885.chunk.js.map",
+    "main.css": "/Hidayat/static/css/main.c34580eb.chunk.css",
+    "main.js": "/Hidayat/static/js/main.d07a5e6b.chunk.js",
+    "main.js.map": "/Hidayat/static/js/main.d07a5e6b.chunk.js.map",
     "runtime-main.js": "/Hidayat/static/js/runtime-main.41422189.js",
     "runtime-main.js.map": "/Hidayat/static/js/runtime-main.41422189.js.map",
     "static/css/2.c60d7c6f.chunk.css": "/Hidayat/static/css/2.c60d7c6f.chunk.css",
-    "static/js/2.4b6dad8d.chunk.js": "/Hidayat/static/js/2.4b6dad8d.chunk.js",
-    "static/js/2.4b6dad8d.chunk.js.map": "/Hidayat/static/js/2.4b6dad8d.chunk.js.map",
+    "static/js/2.896fc8ea.chunk.js": "/Hidayat/static/js/2.896fc8ea.chunk.js",
+    "static/js/2.896fc8ea.chunk.js.map": "/Hidayat/static/js/2.896fc8ea.chunk.js.map",
     "index.html": "/Hidayat/index.html",
     "static/css/2.c60d7c6f.chunk.css.map": "/Hidayat/static/css/2.c60d7c6f.chunk.css.map",
-    "static/css/main.bb1f4e74.chunk.css.map": "/Hidayat/static/css/main.bb1f4e74.chunk.css.map",
-    "static/js/2.4b6dad8d.chunk.js.LICENSE.txt": "/Hidayat/static/js/2.4b6dad8d.chunk.js.LICENSE.txt",
+    "static/css/main.c34580eb.chunk.css.map": "/Hidayat/static/css/main.c34580eb.chunk.css.map",
+    "static/js/2.896fc8ea.chunk.js.LICENSE.txt": "/Hidayat/static/js/2.896fc8ea.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/Hidayat/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.41422189.js",
     "static/css/2.c60d7c6f.chunk.css",
-    "static/js/2.4b6dad8d.chunk.js",
-    "static/css/main.bb1f4e74.chunk.css",
-    "static/js/main.53bb7885.chunk.js"
+    "static/js/2.896fc8ea.chunk.js",
+    "static/css/main.c34580eb.chunk.css",
+    "static/js/main.d07a5e6b.chunk.js"
   ]
 }
