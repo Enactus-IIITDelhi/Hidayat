@@ -8,7 +8,7 @@ function Footer()
     const d = new Date();
 
     return (<>
-    <div className="bg-soft-grey pb-2 pt-4 m-0">
+    <div className="bg-soft-grey pb-2 pt-4 m-0 mt-5">
         <div className="container">
             <div className="row">
                 <div className="col-md-3 col-sm-10 offset-1 offset-md-0 pb-4">
