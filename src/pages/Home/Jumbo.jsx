@@ -5,8 +5,8 @@ function Jumbo() {
   return (
     <>
     <MainJumbotron 
-      title="Laborum aute culpa occaecat culpa voluptate sint ullamco reprehenderit laboris."
-      subtitle="Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi voluptate dolore ullamco ut."
+      title="Envisioning an India where no child or woman is denied the opportunity to build the career of their dreams."
+      subtitle="We aim to provide the underprivileged youth with opportunities for self-development, enabling them to explore and build on their strengths, overcome their fears and develop necessary skills for a lucrative and successful future. "
       image="assets/HomePage/banner.png"
     />
     </>

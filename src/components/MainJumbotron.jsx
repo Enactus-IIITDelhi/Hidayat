@@ -8,9 +8,9 @@ function MainJumbotron({title, subtitle, image, imageAlign}) {
                 <Row>
                 <Col lg="6" className="d-flex">
                     <div className="d-flex flex-column m-auto">
-                    <h1 className="mt-5 text-main-blue">{title}</h1>
+                    <h2 className="mt-5 text-main-blue">{title}</h2>
 
-                    <h4 className="mt-2 mb-5">{subtitle}</h4>
+                    <h5 className="mt-2 mb-5">{subtitle}</h5>
                     </div>
                 </Col>
 

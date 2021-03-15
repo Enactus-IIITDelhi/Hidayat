@@ -19,8 +19,9 @@ function Mentor()
 
         <div className="row m-auto ">
           <div className="col-11 offset-1 col-md-5 p-0 order-12 order-md-1">
-            <h3 className="text-main-blue">Laborum aute culpa occaecat culpa voluptate sint ullamco reprehenderit laboris.</h3>
-            <p className="mt-4 mb-4">Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi voluptate dolore ullamco ut.</p>
+            <h3 className="text-main-blue">An enriching mentorship program to help students make informed decisions about their streams and career paths. </h3>
+            <p className="mt-4 mb-4">In the 7 week long program, students of classes 9 - 12, that is, the mentees for this program will be allotted experienced mentors for weekly interactive sessions filled with informative talks, healthy discussions on career related topics, enlightening video screenings, fun-filled activities, guided testing including Value, Personality and Aptitude tests from verified sources as well as insightful analysis of their results.  
+ </p>
             <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px"}} size="lg" > Book a session </Button>
           </div>
           <div className="col-10 offset-1 offset-md-0 col-md-5  p-0 order-1 order-md-5" >
