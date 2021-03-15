@@ -18,7 +18,7 @@ function Subscribe()
               <Input className="bg-soft-grey shadow-none" type="email" name="email" id="userEmail" placeholder="E-mail address"  />
             </FormGroup>
             <FormGroup row className="pull-right" >
-              <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px"}} size="lg" >Subscribe </Button>
+              <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px", border:"0px"}} size="lg" >Subscribe </Button>
             </FormGroup>
           </Form>
         </div>

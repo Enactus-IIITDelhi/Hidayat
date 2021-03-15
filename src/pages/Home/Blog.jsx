@@ -66,7 +66,7 @@ function BlogCard(props) {
           <CardText>
             Nisi proident adipisicing nisi velit dolor exercitation pariatur in enim enim. Minim quis labore sunt dolore sit occaecat magna ea nulla. 
           </CardText>
-          <Button className="bg-main-blue  pull-right" style={ {borderRadius:"30px"}} > Checkout </Button>
+          <Button className="bg-main-blue  pull-right" style={ {borderRadius:"30px", border:"0px"}} > Checkout </Button>
         </CardBody>
       </Card>
     </div>

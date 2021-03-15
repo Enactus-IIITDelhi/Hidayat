@@ -47,7 +47,7 @@ function BlogCard(props) {
         <p>
             {props.plot}
         </p>
-        <Button className="bg-main-blue pl-3 pr-3 pull-right" style={ {borderRadius:"30px"}} size="lg" >Read More </Button>
+        <Button className="bg-main-blue pl-3 pr-3 pull-right" style={ {borderRadius:"30px", border:"0px"}} size="lg" >Read More </Button>
 
         </div>
 

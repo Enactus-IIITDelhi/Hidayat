@@ -30,6 +30,12 @@ a, a:hover {
 .bg-soft-grey {
   background-color: var(--soft-light-grey) !important;
 }
+.white{
+  background-color: #fff;
+}
+.black{
+  color:#000;
+}
 
 .border-radius-30 {
   border-radius: 30px !important;
@@ -131,3 +137,22 @@ a, a:hover {
 }
 
 /* End of Blog Section */
+
+/* Footer */
+.footer-line{
+  border-top: 4px solid #3c3c3c;
+  width:95%;
+}
+.ruler-footer{
+  border-top: 4px solid #00b1ff;
+  width:30%;
+}
+.footer-shadow {
+  box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  width:90%;
+}
+.footer-links:hover{
+  color:#000;
+  text-decoration: underline;
+
+}

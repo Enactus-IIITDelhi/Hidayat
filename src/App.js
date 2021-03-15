@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import './App.css';
-
+import Footer from "./components/Footer"
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
@@ -25,6 +25,7 @@ function App() {
           <Route path='login' element={<Login/>}></Route>
           <Route path='signup' element={<SignUp/>}></Route>
         </Routes>
+      <Footer />
 
       </div>
     </HashRouter>

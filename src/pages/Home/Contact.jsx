@@ -31,7 +31,7 @@ function Contact(){
               <Input className="bg-soft-grey shadow-none" type="textarea" name="message" id="userMessage" placeholder="Write your message" rows={6}  />
             </FormGroup>
             <FormGroup row className="pull-right" >
-              <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px"}} size="lg" > Send </Button>
+              <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Send </Button>
             </FormGroup>
           </Form>
         </div>
