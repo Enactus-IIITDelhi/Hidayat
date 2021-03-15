@@ -10,14 +10,18 @@ import Blog from './pages/Blog';
 import SignUp from './components/SignUp'
 import Login from './components/Login'
 import Mentorship from "./pages/Mentorship/index"
+import ScrollToTop from "./ScrollToTop"
 
 function App() {
   return (
     <HashRouter basename="/">
+              <ScrollToTop />
+
       <div className="App">
         <Navigation />
 
-        <Routes>
+        <Routes >
+
           <Route path='/' element={<Home />} ></Route>
           <Route path='resources/*' element={<Resources />} ></Route>
           <Route path='mentorship/*' element={<Mentorship />} ></Route>

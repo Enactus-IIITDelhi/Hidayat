@@ -13,7 +13,7 @@ function Footer()
             <div className="row">
                 <div className="col-md-3 col-sm-10 offset-1 offset-md-0 pb-4">
                     <img src="HidayatLogo.png" alt="Hidayat Logo" className="w-50 d-flex "></img>
-                    <p style={{fontSize:"90%"}} className="pr-1">
+                    <p style={{fontSize:"90%"}} className="pr-2">
                     Project Hidayat aims to provide the underprivileged 
                     youth with opportunities for self-development, 
                     enabling them to explore and build on their strengths,
