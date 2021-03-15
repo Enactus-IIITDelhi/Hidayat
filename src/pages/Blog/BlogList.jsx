@@ -16,7 +16,7 @@ function BlogList()
                                 <CardImg top width="100%" src={blog.imagePath} alt={blog.title} />
                                 <CardBody>
                                 <CardText>{blog.plot}</CardText>
-                                <Button className="bg-main-blue pull-right pl-3 pr-3" style={ {borderRadius:"30px", border:"0px"}} size="lg" >Read More </Button>
+                                <Button className="bg-main-blue pull-right pl-3 pr-3" style={ {borderRadius:"30px", border:"0px"}} size="md" >Read More </Button>
                                 </CardBody>
                             </Card>
                         </div>

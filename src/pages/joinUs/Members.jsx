@@ -7,8 +7,11 @@ function Member()
     return (
         <>
         <h1 className="middle text-main-blue">MEET THE TEAM</h1>
-        <p className="middle join-subheading pb-3">
-        Lorem ipsum dolor sit amet, consect <br/> eturadipiscing elit. 
+        <p className="middle join-subheading pb-0 pl-4 pr-4 mb-1">
+        "The strength of the team is each individual member. The strength of each member is the team."  
+        </p>
+        <p className="middle pt-0 mt-0 pb-4 pl-4 pr-4" style={{fontWeight:"400", fontSize:"110%"}}>
+        -Phil Jackson
         </p>
         <div class="row pr-5 pl-5 m-0 ">
                 {
@@ -27,6 +30,8 @@ function Member()
                     })
                 }
         </div>
+        <hr></hr>
+
         </>
     );
 }

@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, Button, Container } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, Button, Container,Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
 function Navigation() {
   const [collapsed, setCollapsed] = useState(true);
   const toggleNavbar = () => setCollapsed(!collapsed);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const toggle = () => setDropdownOpen(prevState => !prevState);
 
   return (
     <Container fluid className="navigation">
@@ -36,6 +38,15 @@ function Navigation() {
             <NavItem className="mr-4 mt-2 mb-2">
               <Link to="/login">LOGIN</Link>
             </NavItem>
+            {/* <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+            <DropdownToggle caret>
+              SIGN UP/LOGIN
+            </DropdownToggle>
+            <DropdownMenu>
+              <DropdownItem ><Link to="/signup" className="dropdownStyle">SIGN UP</Link></DropdownItem>
+              <DropdownItem><Link to="/login" className="dropdownStyle">LOGIN</Link></DropdownItem>
+            </DropdownMenu>
+          </Dropdown> */}
           </Nav>
 
           <Nav className="ml-auto social" navbar>

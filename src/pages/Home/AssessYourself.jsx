@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from 'reactstrap';
-
+import {Link} from 'react-router-dom'
 function AssessYourself()
 {
 
@@ -25,7 +25,7 @@ function AssessYourself()
           <div className="col-10 offset-1 offset-md-0 col-md-5  p-0" >
             <h3 className="text-main-blue text-right">Build a dream career based on your skills and abilities</h3>
             <p className="mt-4 mb-5 text-right">The following test will help you analyze your strengths and weaknesses which will enable you to choose a career path that matches your skill set and personality. Discover the best within you!</p>
-            <Button className="bg-main-blue pl-5 pr-5 pull-right" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Take test </Button>
+            <Button className="bg-main-blue pl-5 pr-5 pull-right" style={ {borderRadius:"30px", border:"0px"}} size="lg" >  <Link className="m-auto text-center" to="/resources" style={{color:"#fff"}}>Take test</Link>  </Button>
           </div>
           <div className="col-sm-1"></div>
           </div>

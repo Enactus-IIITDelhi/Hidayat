@@ -9,6 +9,7 @@ import JoinUs from './pages/joinUs';
 import Blog from './pages/Blog';
 import SignUp from './components/SignUp'
 import Login from './components/Login'
+import Mentorship from "./pages/Mentorship/index"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} ></Route>
           <Route path='resources/*' element={<Resources />} ></Route>
+          <Route path='mentorship/*' element={<Mentorship />} ></Route>
           <Route path='blog/*' element={<Blog />} ></Route>
           <Route path='joinUs/*' element={<JoinUs/>}></Route>
           <Route path='joinUs/*' element={<JoinUs/>}></Route>

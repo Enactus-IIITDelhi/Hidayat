@@ -9,7 +9,12 @@ function Resources() {
         <>
         <MainJumbotron
             title="Aptitute Test"
-            subtitle="Ea voluptate cupidatat adipisicing labore sint est elit culpa Lorem incididunt consectetur pariatur amet esse. Pariatur occaecat ea sint magna. Aliqua Lorem in nisi aute duis nisi dolor occaecat sit sint. Commodo sunt culpa occaecat non aliqua ipsum esse."
+            subtitle="Aptitude measures the ability of a student to acquire a 
+            set of skills or training by measuring the student's natural 
+            talents and inclinations. This test includes seven different 
+            subcomponents. A complete analysis 
+            is provided after giving all the subtests.   
+            "
             image="assets/Resources/banner.png"
         />
         <Routes>

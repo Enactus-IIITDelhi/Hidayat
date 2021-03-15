@@ -12,7 +12,7 @@ function MainJumbotron({title, subtitle, image}) {
                 <Col lg="6" className="d-flex">
                     <div >
                     <h2 className="mt-5">{title}</h2>
-                    <h4 className="mt-2 mb-5 text-main-blue">{subtitle}</h4>
+                    <h5 className="mt-2 mb-5 text-main-blue">{subtitle}</h5>
                     </div>
                 </Col>
                 </Row>

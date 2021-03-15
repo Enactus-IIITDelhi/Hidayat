@@ -8,8 +8,8 @@ import Members from './Members';
 function joinUs() {
     return (
         <>
-            <Jumbo title="Lorem ipsum dolor sit amet, cons ectetu radipiscing elit."  
-                subtitle="Lorem ipsum dolor sit amet, conse ctetu radipiscing elit. Etiam quis sapien vitae mauris interdum Lorem ipsum dolor sit amet, conse cteturadipiscing elit. Etiam quis sapien vitae mauris interdum" 
+            <Jumbo title="We welcome you all to the Hidayat family"  
+                subtitle="We are an organisation that believes that there exists infinite potential within every young mind blossoming in our country, and we aim to enhance the quality of education, provide career counselling and promote the holistic development of students." 
                 image="assets/joinUsPage/bannerImage.png"  />
             <Members />
             <JoinTeam />

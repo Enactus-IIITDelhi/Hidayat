@@ -11,9 +11,9 @@ function Footer()
     <div className="bg-soft-grey pb-2 pt-4 m-0">
         <div className="container">
             <div className="row">
-                <div className="col-md-4 m-auto pb-4">
+                <div className="col-md-3 col-sm-10 offset-1 offset-md-0 pb-4">
                     <img src="HidayatLogo.png" alt="Hidayat Logo" className="w-50 d-flex "></img>
-                    <p style={{fontSize:"80%"}}>
+                    <p style={{fontSize:"90%"}} className="pr-1">
                     Project Hidayat aims to provide the underprivileged 
                     youth with opportunities for self-development, 
                     enabling them to explore and build on their strengths,
@@ -22,7 +22,10 @@ function Footer()
                     </p>
 
                 </div>
-                <div className="col-md-4 m-auto pb-4">
+                <div className="col-md-1 col-1">
+
+                </div>
+                <div className="col-md-4 col-sm-11 offset-1 offset-md-0 pb-5">
                     <div>
                         <Link className="m-auto text-center black footer-links" to="/">About Us</Link>
                         <br/>
@@ -55,7 +58,7 @@ function Footer()
 
 
                 </div>  
-                <div className="col-md-4 col-sm-11 offset-1 offset-md-0">
+                <div className="col-md-4 col-sm-11 offset-1 offset-md-0 pb-3">
                     <p className="m-0">Let's work on your suggestions</p>
                     <hr className="ruler-footer pull-left m-0 mt-1" />
                     <br/>
