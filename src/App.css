@@ -22,7 +22,9 @@ a, a:hover {
 .text-main-blue {
   color: var(--main-blue-color) !important;
 }
-
+.fw-700{
+  font-size: 700;
+}
 .bg-main-blue {
   background-color: var(--main-blue-color) !important;
 }
