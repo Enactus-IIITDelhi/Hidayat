@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, Button, Container,Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Link,  NavLink} from 'react-router-dom';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,  Button, Container,Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
 function Navigation() {
@@ -8,6 +8,8 @@ function Navigation() {
   const toggleNavbar = () => setCollapsed(!collapsed);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const toggle = () => setDropdownOpen(prevState => !prevState);
+  const isActive = (path, match, location) => !!(match || path === location.pathname);
+
 
   return (
     <Container fluid className="navigation">
@@ -19,25 +21,14 @@ function Navigation() {
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 
         <Collapse isOpen={!collapsed} navbar>
+
           <Nav navbar>
-            <NavItem className="mr-4 mt-2 mb-2" >
-              <Link className="m-auto text-center" to="/">ABOUT</Link>
-            </NavItem>
-            <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/resources">RESOURCES</Link>
-            </NavItem>
-            <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/blog">BLOG</Link>
-            </NavItem>
-            <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/joinUs">JOIN US</Link>
-            </NavItem>
-            <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/signup">SIGN UP</Link>
-            </NavItem>
-            <NavItem className="mr-4 mt-2 mb-2">
-              <Link to="/login">LOGIN</Link>
-            </NavItem>
+            <NavLink to='/'   exact activeClassName="selected"  className="mr-4 mt-2 mb-2 navLinks"  >HOME</NavLink>
+            <NavLink to='./resources'  activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks" >RESOURCES</NavLink>
+            <NavLink  to='./blog'  activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">BLOG</NavLink>
+            <NavLink  to='./joinUs'  activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">JOIN US</NavLink>
+            <NavLink to='./signup' activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">SIGN UP</NavLink>
+            <NavLink to='./login' activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">LOGIN</NavLink>
             {/* <Dropdown isOpen={dropdownOpen} toggle={toggle}>
             <DropdownToggle caret>
               SIGN UP/LOGIN

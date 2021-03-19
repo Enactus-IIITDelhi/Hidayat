@@ -6,17 +6,17 @@ function Content()
 {
     return(<>
         <div>
-            <h3 className="text-main-blue middle ml-5 mr-5 mt-2">
+            <h3 className="text-main-blue middle pl-5 pr-5 mt-2">
             “One child, one teacher, one book and one pen can change the world.” 
             </h3>
-            <h4 className="middle ml-5 mr-5 mb-4">   
+            <h4 className="middle pl-5 pr-5 mb-4">   
                 ― Malala Yousafzai
             </h4>
             <div className="middle">
                 <Button className="bg-main-blue pl-5 pr-5  mt-3 mb-3" style={ {border:"0px"}} size="lg" > <span style={{fontWeight:"500"}}>Mentorship Program</span></Button>
             </div>
 
-            <div className="row">
+            <div className="row m-0">
             <div className="col-md-5 col-12  offset-md-1 pl-5 pr-5 pr-md-3 pl-md-3 pb-3">
             <Button className="bg-main-blue pl-5 pr-5 pull-right" style={ {border:"0px"}} size="md" > <span style={{fontWeight:"bold"}}>Class 9 - 10</span></Button>
                 <br></br>         
@@ -44,7 +44,7 @@ function Content()
             </div>
 
         </div>
-        <div className="middle mt-5">
+        <div className="middle mt-5  pb-5">
                 <Button className="bg-main-blue pl-5 pr-5 middle" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Apply here  </Button>
             </div>
 

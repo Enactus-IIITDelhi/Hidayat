@@ -5,8 +5,8 @@ import {Button} from 'reactstrap';
 function Initiative()
 {
     return (<>
-        <h2 className="mt-5 mb-3 text-main-blue middle">Initiatives</h2>
-        <div className="row">
+        <h2 className="mt-5 pb-5 text-main-blue middle">Initiatives</h2>
+        <div className="row m-0">
             <div className="col-md-5 col-12  offset-md-1 pl-5 pr-5 pr-md-3 pl-md-3 pb-3">
             <Button className="bg-main-blue pl-5 pr-5 pull-right" style={ {border:"0px"}} size="md" > <span style={{fontWeight:"bold"}}>Initiative 1</span></Button>
                 <br></br>         

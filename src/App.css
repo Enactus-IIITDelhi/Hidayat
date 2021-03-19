@@ -61,17 +61,21 @@ a, a:hover {
   height: 39px;
 }
 
-.nav-item a {
-  color: gray;
-  font-size: large;
-  font-weight: bold;
-}
 
-.nav-item a:hover {
+.navLinks{
+  font-weight: bold;
+  color:gray;
+  font-size: large;
+}
+.navLinks:hover{
   color: var(--main-blue-color);
   position: relative;
   top: -3px;
   transition: 0.5s;
+
+}
+.selected{
+  color: var(--main-blue-color);
 }
 
 
