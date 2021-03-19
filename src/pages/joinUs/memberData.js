@@ -93,3 +93,6 @@ const members = [
 ]
 
 export default members;
+
+// https://www.birme.net/
+// 1200px by 1200px
