@@ -22,7 +22,7 @@ const members = [
         {
         name: "Harshita Gupta",
         role: "Social Media and PR Lead",
-        imagePath:"assets/members/Harshita.jpg"
+        imagePath:"assets/members/Harshita.JPG"
         },
         {
         name: "Nandika Jain",
