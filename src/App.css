@@ -75,6 +75,20 @@ a, a:hover {
 
 /* End of Navigation */
 
+/* About Page */
+
+.rightDiv{
+  border: 3px solid #00b1ff;
+  text-align: right;
+}
+
+.leftDiv{
+  border: 3px solid #00b1ff;
+  text-align: left;
+
+
+
+}
 /* Home Page */
 
 .banner .content {

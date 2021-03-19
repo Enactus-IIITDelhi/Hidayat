@@ -1,19 +1,22 @@
 import React from 'react';
-// import Jumbo from './Jumbo';
-// import Content from "./Content"
-
+import Jumbo from './Jumbo';
+import Problem from "./Problem"
+import Initiative from "./Initiatives"
 
 function About() {
     return (
         <>
 
+            <Jumbo />
             <div>
-            <h3 className="text-main-blue middle ml-5 mr-5 mt-2">
+            <h3 className="text-main-blue middle ml-5 mr-5 mt-5">
             “Tell me and I forget, teach me and I may remember, involve me and I learn.” 
             </h3>
-            <h4 className="middle ml-5 mr-5">   
+            <h4 className="middle ml-5 mr-5 mb-5">   
                 ― Benjamin Franklin
             </h4>
+            <Problem/>
+            <Initiative/>
 
         </div>
 
