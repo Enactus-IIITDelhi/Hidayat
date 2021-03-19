@@ -23,12 +23,12 @@ function Navigation() {
         <Collapse isOpen={!collapsed} navbar>
 
           <Nav navbar>
-            <NavLink to='/'   exact activeClassName="selected"  className="mr-4 mt-2 mb-2 navLinks"  >HOME</NavLink>
-            <NavLink to='./resources'  activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks" >RESOURCES</NavLink>
-            <NavLink  to='./blog'  activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">BLOG</NavLink>
-            <NavLink  to='./joinUs'  activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">JOIN US</NavLink>
-            <NavLink to='./signup' activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">SIGN UP</NavLink>
-            <NavLink to='./login' activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks">LOGIN</NavLink>
+            <NavLink   exact={true} activeClassName="selected"  className="mr-4 mt-2 mb-2 navLinks" to='/'  >HOME</NavLink>
+            <NavLink   activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks" to='./resources' >RESOURCES</NavLink>
+            <NavLink   activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks" to='./blog' >BLOG</NavLink>
+            <NavLink   activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks" to='./joinUs' >JOIN US</NavLink>
+            <NavLink  activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks" to='./signup'>SIGN UP</NavLink>
+            <NavLink activeClassName="selected" className="mr-4 mt-2 mb-2 navLinks"  to='./login'>LOGIN</NavLink>
             {/* <Dropdown isOpen={dropdownOpen} toggle={toggle}>
             <DropdownToggle caret>
               SIGN UP/LOGIN
