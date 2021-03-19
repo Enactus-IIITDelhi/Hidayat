@@ -6,7 +6,7 @@ function Mentor()
 {
 
   return(
-    <div className="container-fluid pt-5 pb-1">
+    <div className="container-fluid pt-5 pb-1 ">
         <div className="row m-auto ">
             <div className="col-11 offset-1 col-md-5 p-0">
             <h2 className="text-main-blue m-0 p-0 text-left" >Find a Mentor.</h2>

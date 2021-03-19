@@ -7,7 +7,7 @@ function Blog()
 {
 
   return(
-    <div className="container-fluid pt-5 pb-2 bg-soft-grey ">
+    <div className="container-fluid pt-5 pb-2  bg-soft-grey ">
       <div className="row m-auto ">
           <div className="col-11 offset-1 col-md-5 p-0">
           </div>

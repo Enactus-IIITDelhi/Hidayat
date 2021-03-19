@@ -4,6 +4,8 @@ import {Card, CardImg,  CardBody,CardTitle, CardSubtitle} from 'reactstrap';
 
 function Member()
 {
+
+
     return (
         <>
         <h1 className="middle text-main-blue">MEET THE TEAM</h1>
@@ -19,7 +21,7 @@ function Member()
                         return(
                             <div className="col-lg-3 col-md-4 col-sm-6 col-12 pb-4 mr-0 ml-0" key={index}>                            
                             <Card className="no_border m-0 p-0">
-                                <CardImg top width="100%" src={member.imagePath} alt={member.name} />
+                                <CardImg top width="100%" src={member.imagePath} alt={member.name} height="300" width="300" />
                                 <CardBody>
                                 <CardTitle tag="h5" className="middle text-main-blue ">{member.name}</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 middle">{member.role}</CardSubtitle>
