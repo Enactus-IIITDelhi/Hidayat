@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Hidayat/static/css/main.985bc0ac.chunk.css",
-    "main.js": "/Hidayat/static/js/main.9079d336.chunk.js",
-    "main.js.map": "/Hidayat/static/js/main.9079d336.chunk.js.map",
+    "main.css": "/Hidayat/static/css/main.d25fbfc1.chunk.css",
+    "main.js": "/Hidayat/static/js/main.a9a5a21d.chunk.js",
+    "main.js.map": "/Hidayat/static/js/main.a9a5a21d.chunk.js.map",
     "runtime-main.js": "/Hidayat/static/js/runtime-main.41422189.js",
     "runtime-main.js.map": "/Hidayat/static/js/runtime-main.41422189.js.map",
     "static/css/2.c60d7c6f.chunk.css": "/Hidayat/static/css/2.c60d7c6f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.9b5dde5a.chunk.js.map": "/Hidayat/static/js/2.9b5dde5a.chunk.js.map",
     "index.html": "/Hidayat/index.html",
     "static/css/2.c60d7c6f.chunk.css.map": "/Hidayat/static/css/2.c60d7c6f.chunk.css.map",
-    "static/css/main.985bc0ac.chunk.css.map": "/Hidayat/static/css/main.985bc0ac.chunk.css.map",
+    "static/css/main.d25fbfc1.chunk.css.map": "/Hidayat/static/css/main.d25fbfc1.chunk.css.map",
     "static/js/2.9b5dde5a.chunk.js.LICENSE.txt": "/Hidayat/static/js/2.9b5dde5a.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/Hidayat/static/media/fontawesome-webfont.f691f37e.woff"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.41422189.js",
     "static/css/2.c60d7c6f.chunk.css",
     "static/js/2.9b5dde5a.chunk.js",
-    "static/css/main.985bc0ac.chunk.css",
-    "static/js/main.9079d336.chunk.js"
+    "static/css/main.d25fbfc1.chunk.css",
+    "static/js/main.a9a5a21d.chunk.js"
   ]
 }
