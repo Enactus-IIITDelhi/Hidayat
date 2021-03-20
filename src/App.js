@@ -30,7 +30,6 @@ function App() {
           <Route exact path='mentorship/*' element={<Mentorship />} ></Route>
           <Route exact path='blog/*' element={<Blog />} ></Route>
           <Route exact path='joinUs/*' element={<JoinUs/>}></Route>
-          <Route exact path='joinUs/*' element={<JoinUs/>}></Route>
           <Route exact path='login' element={<Login/>}></Route>
           <Route exact path='signup' element={<SignUp/>}></Route>
         </Routes>

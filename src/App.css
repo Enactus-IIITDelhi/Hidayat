@@ -74,7 +74,7 @@ a, a:hover {
   transition: 0.5s;
 
 }
-.selected{
+.active{
   color: var(--main-blue-color);
 }
 
