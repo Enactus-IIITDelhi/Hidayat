@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Hidayat/static/css/main.cb279312.chunk.css",
-    "main.js": "/Hidayat/static/js/main.6f559d97.chunk.js",
-    "main.js.map": "/Hidayat/static/js/main.6f559d97.chunk.js.map",
+    "main.js": "/Hidayat/static/js/main.3bf7f878.chunk.js",
+    "main.js.map": "/Hidayat/static/js/main.3bf7f878.chunk.js.map",
     "runtime-main.js": "/Hidayat/static/js/runtime-main.41422189.js",
     "runtime-main.js.map": "/Hidayat/static/js/runtime-main.41422189.js.map",
     "static/css/2.1457507c.chunk.css": "/Hidayat/static/css/2.1457507c.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.1457507c.chunk.css",
     "static/js/2.c95c0c8b.chunk.js",
     "static/css/main.cb279312.chunk.css",
-    "static/js/main.6f559d97.chunk.js"
+    "static/js/main.3bf7f878.chunk.js"
   ]
 }
