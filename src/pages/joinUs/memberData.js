@@ -30,6 +30,11 @@ const members = [
         imagePath:"assets/members/Nandika.jpg"
         },
         {
+        name: "Harsh Kumar",
+        role: "Web Development Lead",
+        imagePath:"assets/members/Harsh.jpg"
+        },
+        {
         name: "Aadit Jha",
         role: "Design Team",
         imagePath:"assets/members/Aadit.jpg"
@@ -73,6 +78,11 @@ const members = [
         name: "Isha Singh",
         role: "Events and PR Team",
         imagePath:"assets/members/Isha.jpg"
+        },
+        {
+        name: "Kesar Shrivastava",
+        role: "Content Writer",
+        imagePath:"assets/members/Kesar.jpg"
         },
         {
         name: "Khwaish Rupani",
