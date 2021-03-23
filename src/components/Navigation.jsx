@@ -6,9 +6,8 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,  Button, Co
 function Navigation() {
   const [collapsed, setCollapsed] = useState(true);
   const toggleNavbar = () => setCollapsed(!collapsed);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const toggle = () => setDropdownOpen(prevState => !prevState);
-  const isActive = (path, match, location) => !!(match || path === location.pathname);
+
+
 
 
   return (
@@ -24,20 +23,25 @@ function Navigation() {
 
           <Nav navbar>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='/'  >HOME</NavLink>
+            {/* <Dropdown>
+  <DropdownToggle caret color="primary">
+    Home
+  </DropdownToggle>
+  <DropdownMenu>
+    <NavLink to="/">
+      <DropdownItem>HOME</DropdownItem>
+    </NavLink>
+    <NavLink to="/">
+      <DropdownItem>ABOUT</DropdownItem>
+    </NavLink>
+  </DropdownMenu>
+</Dropdown> */}
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='resources' >RESOURCES</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='blog' >BLOG</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='joinUs' >JOIN US</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='signup'>SIGN UP</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks"  to='login'>LOGIN</NavLink>
-            {/* <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-            <DropdownToggle caret>
-              SIGN UP/LOGIN
-            </DropdownToggle>
-            <DropdownMenu>
-              <DropdownItem ><Link to="/signup" className="dropdownStyle">SIGN UP</Link></DropdownItem>
-              <DropdownItem><Link to="/login" className="dropdownStyle">LOGIN</Link></DropdownItem>
-            </DropdownMenu>
-          </Dropdown> */}
+
           </Nav>
 
           <Nav className="ml-auto social" navbar>

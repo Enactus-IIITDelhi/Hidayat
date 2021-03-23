@@ -11,7 +11,8 @@ function Jumbo() {
                     <div className="d-flex flex-column m-auto" >
                     <h2 className="mt-5 text-main-blue" style={{textAlign:"left"}}>The Problem</h2>
                     <h5 className="mt-2 mb-5 " style={{textAlign:"left"}}>
-                    Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatu Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi voluptate dolore ullamco ut.
+                    A <a href="https://www.indiatoday.in/education-today/news/story/93-indian-students-aware-of-just-seven-career-options-what-are-parents-doing-wrong-1446205-2019-02-04" target="_blank" style={{textDecoration:"underline"}}> 2019 report
+                        </a> on a survey on career option awareness among Indian students revealed that a staggering 93% of the students aged 14 to 21 were aware of just seven career options even though there are more than 250 different types of job options available in India. This alarming lack of awareness is what we wish to conquer in our own unique way starting with providing a platform with career related resources and guidance. 
                     </h5>
                     </div>
                 </Col>

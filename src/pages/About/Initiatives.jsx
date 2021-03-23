@@ -11,8 +11,9 @@ function Initiative()
             <Button className="bg-main-blue pl-5 pr-5 pull-right" style={ {border:"0px"}} size="md" > <span style={{fontWeight:"bold"}}>Initiative 1</span></Button>
                 <br></br>         
                 <div className="rightDiv pt-1 pr-1 pl-1 ">
-                    <p className="p-2">
-                    Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatu Mollit vt. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi voluptat. 
+                    <h5 className="pt-2 pb-0 pl-1 pr-1">Mentorship Program - Career Guidance Sessions</h5>
+                    <p className="pl-2 pr-2">
+                    The goal of this program spanning 7 weeks was to help students in classes 10th and 12th make informed decisions about their streams/branches and career paths respectively and not be held back due to lack of resources. Weekly interactive sessions filled with informative talks, healthy discussions on career related topics, enlightening video screenings, fun-filled activities, guided testing including Interest, Value, Personality and Aptitude tests as well as insightful analysis of their results were conducted in these sessions. 
 
                     </p>
                 </div>          
@@ -23,8 +24,10 @@ function Initiative()
             <Button className="bg-main-blue pl-5 pr-5 pull-left" style={ {border:"0px"}} size="md" > <span style={{fontWeight:"bold"}}>Initiative 2</span></Button>
                 <br></br>
                 <div className="leftDiv pt-1 pr-1 pl-1">
-                        <p className="p-2">
-                        Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi Mollit veniam id non officia deserunt sint. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatu Mollit vt. Ullamco elit laborum pariatur tempor dolore deserunt ullamco elit est eu veniam nulla pariatur id. Nisi voluptat. 
+                <h5 className="pt-2 pb-0 pl-1 pr-1">IT Bootcamp</h5>
+
+                        <p className="pl-2 pr-2">
+                        A number of sessions spanning 7 weeks were conducted to help develop essential IT skills in children and youth. Live demonstrations followed by activities along with informative slides detailing tutorials on introduction to Gmail, Google Drive, Google Documents, Google Slides, Google Sheet, and their counterparts in Microsoft Office were included in these sessions. A session on Cyber Security and Privacy to help students protect themselves was also conducted. 
 
                         </p>
 
