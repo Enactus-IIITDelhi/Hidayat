@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Col, Row } from 'reactstrap';
 import data from './quizData';
 
 function TestCard({name, image, link}) {
     return (
         <Col className="pt-4 pt-md-1 pt-lg-5 pb-4 pb-md-1 pb-lg-5 hover-fill-lightgrey" sm="6" lg="4" xl="3">
-            <a href={link} target="_blank">
+            <a href={link} target="blank">
                 <div width="100%" fill="black" className="d-flex">
                     <img width="100%" className="d-flex m-auto" src={image} alt={name} />
                 </div>

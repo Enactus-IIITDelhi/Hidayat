@@ -17,7 +17,7 @@ function App() {
 
   return (
     <BrowserRouter basename="/">
-              <ScrollToTop />
+      <ScrollToTop />
 
       <div className="App">
         <Navigation />
