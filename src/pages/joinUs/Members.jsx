@@ -1,11 +1,8 @@
 import React from 'react';
 import members from './memberData';
-import {Card, CardImg,  CardBody,CardTitle, CardSubtitle} from 'reactstrap';
+import {Card, CardBody,CardTitle, CardSubtitle} from 'reactstrap';
 
-function Member()
-{
-
-
+function Member() {
     return (
         <>
         <h1 className="middle text-main-blue">MEET THE TEAM</h1>

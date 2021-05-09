@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Footer from "./components/Footer"
 import Navigation from './components/Navigation';
@@ -16,7 +16,7 @@ import ScrollToTop from "./ScrollToTop"
 function App() {
 
   return (
-    <HashRouter basename="/">
+    <BrowserRouter basename="/">
               <ScrollToTop />
 
       <div className="App">
@@ -36,7 +36,7 @@ function App() {
       <Footer />
 
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

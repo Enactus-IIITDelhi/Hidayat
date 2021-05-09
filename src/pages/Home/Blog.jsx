@@ -2,10 +2,12 @@ import React from 'react';
 import {Card, CardBody, CardImg, CardTitle, CardText, Button} from 'reactstrap';
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import blogs from '../Blog/blogs';
+import { Link } from 'react-router-dom';
+import CardFooter from 'reactstrap/lib/CardFooter';
 
 function Blog()
 {
-
   return(
     <div className="container-fluid pt-5 pb-2  bg-soft-grey ">
       <div className="row m-auto ">
@@ -47,27 +49,30 @@ function BlogsCarousel(props) {
 
       }}>
 
-      <BlogCard storyNo="1" />
-      <BlogCard storyNo="2" />
-      <BlogCard storyNo="3" />
-      <BlogCard storyNo="4" />
+      <BlogCard obj={blogs[0]} />
+      <BlogCard obj={blogs[1]} />
+      <BlogCard obj={blogs[2]} />
 
     </Carousel>
   );
 }
 
-function BlogCard(props) {
+function BlogCard({obj}) {
   return (
-    <div className="pl-md-2 pr-md-2 pt-5 pb-5 ml-1 mr-1">
-      <Card className="border border-dark">
-        <CardImg className="border-bottom border-dark" top width="100%" src="assets/HomePage/dummy.png" alt="Card image cap" />
+    <div className="pl-md-2 pr-md-2 pt-5 pb-5 ml-1 mr-1 h-100">
+      <Card className="border border-dark h-100">
+        <CardImg className="border-bottom border-dark" top width="100%" src={obj.imagePath} alt="Card image cap" />
         <CardBody>
-          <CardTitle className="h3">Story {props.storyNo}</CardTitle>
+          <CardTitle className="h3 text-main-blue">{obj.title}</CardTitle>
           <CardText>
-            Nisi proident adipisicing nisi velit dolor exercitation pariatur in enim enim. Minim quis labore sunt dolore sit occaecat magna ea nulla. 
+            {obj.plot}
           </CardText>
-          <Button className="bg-main-blue  pull-right" style={ {borderRadius:"30px", border:"0px"}} > Checkout </Button>
         </CardBody>
+        <CardFooter>
+          <Link to={`/blog/${obj.link}`}>
+            <Button className="bg-main-blue  pull-right" style={ {borderRadius:"30px", border:"0px"}} > Read More </Button>
+          </Link>
+        </CardFooter>
       </Card>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Jumbotron, Row, Col, Button } from 'reactstrap';
+import { Container, Jumbotron, Row, Col } from 'reactstrap';
 
 function Jumbo() {
     return (

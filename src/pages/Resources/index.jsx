@@ -1,8 +1,6 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import MainJumbotron from '../../components/MainJumbotron'
-import Tests from './Tests'
-import Quiz from './Quiz'
+import Tests from './Tests';
 
 function Resources() {
     return (
@@ -17,10 +15,7 @@ function Resources() {
             "
             image="assets/Resources/banner.png"
         />
-        <Routes>
-            <Route path="/" element={<Tests />}></Route>
-            <Route path=":quizName" element={<Quiz />}></Route>
-        </Routes>
+        <Tests />
         </>
     );
 }
