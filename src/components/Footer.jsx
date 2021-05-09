@@ -3,8 +3,42 @@ import {Form, FormGroup, Input, Label, Button} from 'reactstrap';
 import {Link} from "react-router-dom"
 
 
-function Footer()
-{
+class Footer extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: ''
+        }
+
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleInputChange = this.handleInputChange.bind(this);
+        this.getBody = this.getBody.bind(this);
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+    }
+
+    handleInputChange(event) {
+        const target = event.target;
+        const value = target.value;
+        const name = target.name;
+        this.setState({
+            [name]: value
+        });
+    }
+
+    getBody() {
+        return (
+            encodeURIComponent("Dear sir/ma'am,\n")+
+            encodeURIComponent(this.state.message + "\n") +
+            encodeURIComponent("Regards\n" + this.state.name + "\n(" + this.state.email +")")
+        )
+    }
+
+    render() {
     const d = new Date();
 
     return (<>
@@ -62,21 +96,32 @@ function Footer()
                     <p className="m-0">Let's work on your suggestions</p>
                     <hr className="ruler-footer pull-left m-0 mt-1" />
                     <br/>
-                    <Form>
+                    <Form onSubmit={this.handleSubmit}>
                     <FormGroup row>
                     <Label for="userName" hidden>Name</Label>
-                    <Input className="white footer-shadow" type="text" name="name" id="userName" placeholder="Full name" />
+                    <Input className="white footer-shadow" type="text" name="name" id="userName" placeholder="Full name"
+                        value={this.state.name}
+                        onChange={this.handleInputChange}
+                     />
                     </FormGroup>
                     <FormGroup row>
                     <Label for="userEmail" hidden>Email</Label>
-                    <Input className="white footer-shadow" type="email" name="email" id="userEmail" placeholder="E-mail address"  />
+                    <Input className="white footer-shadow" type="email" name="email" id="userEmail" placeholder="E-mail address" ref={this.email}
+                        value={this.state.email}
+                        onChange={this.handleInputChange}
+                     />
                     </FormGroup>
                     <FormGroup row>
                     <Label for="userMessage" hidden>Message</Label>
-                    <Input className="white footer-shadow" type="textarea" name="message" id="userMessage" placeholder="Write your message" rows={6}  />
+                    <Input className="white footer-shadow" type="textarea" name="message" id="userMessage" placeholder="Write your message" rows={6} ref={this.message}
+                        value={this.state.message}
+                        onChange={this.handleInputChange}
+                     />
                     </FormGroup>
                     <FormGroup row className="pull-right" >
-                    <Button className="bg-main-blue pl-5 pr-5 mr-4" style={ {borderRadius:"30px", border:"0px"}} size="md" > Send </Button>
+                    <a href={`mailto:hidayat@iiitd.ac.in?&subject=Suggestion%20for%20Hidayat%20project&body=${this.getBody()}`} target="blank" >
+                        <div disabled="true" className="btn text-white bg-main-blue pl-5 pr-5 mr-4" style={ {borderRadius:"30px", border:"0px"}}> Send </div>
+                    </a>
                     </FormGroup>
                     </Form>
                 </div>
@@ -91,5 +136,6 @@ function Footer()
    
 
     </>);
+    }
 }
 export default Footer;
