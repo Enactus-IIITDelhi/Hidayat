@@ -23,6 +23,7 @@ function Navigation() {
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='about' >ABOUT US</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='resources' >APTITUDE TEST</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='blog' >BLOG</NavLink>
+            <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='mentorship' >MENTORSHIP PROGRAM</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='joinUs' >JOIN US</NavLink>
           </Nav>
 
