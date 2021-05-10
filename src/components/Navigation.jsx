@@ -9,7 +9,7 @@ function Navigation() {
 
   return (
     <Container fluid className="navigation">
-      <Navbar light expand="md">
+      <Navbar light expand="lg">
         <NavbarBrand className="mr-5" href="/">
           <img src="HidayatLogo.png" alt="H" height="60" />
         </NavbarBrand>
