@@ -130,8 +130,22 @@ class Footer extends React.Component {
 
         </div>
         <hr className="p-0 m-0 m-1 footer-line m-auto" />
-        <p className="ml-4 pl-4 ">{"© Project Hidayat "+ d.getFullYear()}</p>
-
+        <div className="w-100 py-2 text-center">
+            <p className="mb-0">{"© Project Hidayat "+ d.getFullYear()}</p>
+            <p className="mb-0">Developed by 
+                <strong><a href="https://www.linkedin.com/in/nandikajain" target="_blank" rel="noopener noreferrer"> Nandika Jain</a></strong> and 
+                <strong><a href="http://www.linkedin.com/in/hadron43" target="_blank" rel="noopener noreferrer"> Harsh Kumar</a></strong>
+            </p>
+            <p className="mb-0">
+                Design and Content by
+                <a href="https://www.linkedin.com/in/rachita-saha-0577b11b2/" target="_blank" rel="noopener noreferrer"> Rachita Saha</a>,
+                <a href="http://www.linkedin.com/in/aditi-sejal" target="_blank" rel="noopener noreferrer"> Aditi Sejal, </a>
+                Khwaish Rupani,
+                <a href="https://www.linkedin.com/in/charvijindal" target="_blank" rel="noopener noreferrer"> Charvi,</a>
+                <a href="https://www.linkedin.com/in/prakhar-p-923128126/" target="_blank" rel="noopener noreferrer"> Prakhar</a> and
+                <a href="https://www.linkedin.com/in/manavsaspal/"> Manav</a>
+            </p>
+        </div>
     </div>
    
 

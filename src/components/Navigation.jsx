@@ -21,7 +21,7 @@ function Navigation() {
           <Nav navbar>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='/'  >HOME</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='about' >ABOUT US</NavLink>
-            <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='resources' >RESOURCES</NavLink>
+            <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='resources' >APTITUDE TEST</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='blog' >BLOG</NavLink>
             <NavLink end className="mr-4 mt-2 mb-2 navLinks" to='joinUs' >JOIN US</NavLink>
           </Nav>
@@ -36,9 +36,11 @@ function Navigation() {
                 <span className="fa fa-facebook"></span>
               </Button>
 
+              <a href="https://www.instagram.com/project_hidayat/" target="blank">
               <Button color="dark" className="rounded-circle ml-2">
                 <span className="fa fa-instagram"></span>
               </Button>
+              </a>
             </NavItem>
           </Nav>
 

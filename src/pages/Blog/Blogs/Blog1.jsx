@@ -5,6 +5,7 @@ function Blog1() {
     return (
         <Container className="text-justify lead">
         <h1 className="text-main-blue text-center font-weight-bold display-4">Careers in India: The Parent Factor</h1>
+        <h4 className="text-center">by <b>Aditi Sejal</b>, B. Tech Class of 2023</h4>
         <Row className="d-flex">
             <Col xs="12"  md="8" lg="7" className="d-flex m-auto">
                 <div className="d-flex w-100">

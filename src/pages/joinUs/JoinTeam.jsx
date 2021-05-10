@@ -17,14 +17,18 @@ function JoinTeam()
                         <p>
                         Volunteering with Hidayat will allow you to interact directly with underprivileged people and mentor them in different fields like IT and academics. You will get a chance to guide young minds and provide career counselling to them.
                         </p>
-                        <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Volunteer </Button>
+                        <a href="https://forms.gle/wLcy6t6rU6WGeMhNA" target="blank">
+                            <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Volunteer </Button>
+                        </a>
                     </div>
 
                     <div className="col-md-6 pl-5 pr-5 pb-3 pt-2" >
                         <p>
                         Interning at Hidayat is a fun way to learn an organisation's workings and give back to society. There are many options to choose from, including, but not limited to, content writing, design, web development, event management, PR and publicity.
                         </p>
-                        <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Apply for Intership </Button>
+                        <a href="https://forms.gle/ymmN8Vt2mzXg8Xwu9" target="blank">
+                            <Button className="bg-main-blue pl-5 pr-5" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Apply for Internship </Button>
+                        </a>
                     </div>
                 </div>
             </div>

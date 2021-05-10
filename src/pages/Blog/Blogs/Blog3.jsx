@@ -4,8 +4,8 @@ import { Container, Row, Col} from 'reactstrap';
 function Blog3() {
     return (
         <Container className="text-justify lead">
-        <h1 className="text-main-blue text-center font-weight-bold display-4">Academic Support Program</h1>
-        <h4 className="text-center">by <b>Prakriti Garg</b>, B.Tech. Class of 2024</h4>
+        <h1 className="text-main-blue text-center font-weight-bold display-4">Pillars of Support in the Academic Support Program</h1>
+        <h4 className="text-center">by <b>Prakriti Garg</b>, B.Tech. Class of 2023</h4>
         <Row className="d-flex my-5">
             <Col xs="12"  md="8" lg="7" className="d-flex m-auto">
                 <div className="d-flex w-100">
