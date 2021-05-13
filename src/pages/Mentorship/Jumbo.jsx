@@ -13,7 +13,9 @@ function Jumbo({title, subtitle, image}) {
                     <div >
                     <h2 className="mt-5 text-main-blue" style={{textAlign:"right"}}>{title}</h2>
                     <h5 className="mt-2 mb-3 " style={{textAlign:"right"}}>{subtitle}</h5>
-                    <Button className=" mb-3 mt-0 bg-main-blue pull-right pl-3 pr-3" style={ {borderRadius:"30px", border:"0px"}} size="lg">Enrol now</Button>
+                    <a href="https://forms.gle/haF8gqD9SbBD2rWk8" target="_blank" rel="noopener noreferrer">
+                        <Button className=" mb-3 mt-0 bg-main-blue pull-right pl-3 pr-3" style={ {borderRadius:"30px", border:"0px"}} size="lg">Enrol now</Button>
+                    </a>
                     </div>
                 </Col>
                 </Row>

@@ -45,10 +45,11 @@ function Content()
 
         </div>
         <div className="middle mt-5  pb-5">
+            <a href="https://forms.gle/haF8gqD9SbBD2rWk8" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-main-blue pl-5 pr-5 middle" style={ {borderRadius:"30px", border:"0px"}} size="lg" > Apply here  </Button>
-            </div>
-
-
+            </a>
+        </div>
+        
         </div>
     </>);
 }

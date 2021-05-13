@@ -22,30 +22,31 @@ function Banner(props) {
         }}
         >
 
-        <BlogCard storyNo="1" image={blogs[0].imagePath} title={blogs[0].title} plot={blogs[0].detailedPlot} link={blogs[0].link}/>
-        <BlogCard storyNo="2" image={blogs[1].imagePath} title={blogs[1].title} plot={blogs[1].detailedPlot} link={blogs[1].link} />
-        <BlogCard storyNo="3" image={blogs[2].imagePath} title={blogs[2].title} plot={blogs[2].detailedPlot} link={blogs[2].link} />
+        <BlogCard values={blogs[0]} />
+        <BlogCard values={blogs[1]} />
+        <BlogCard values={blogs[2]} />
       </Carousel>
     </div>
   );
 }
 
-function BlogCard(props) {
+function BlogCard({values}) {
   return (
     <div>
     <div className="container-fluid row pl-3 pr-3">
       <div className="col-xs-12 col-sm-5 d-flex">
-          <img className="d-flex m-auto" src={props.image} alt="blog card" width="80%"></img>
+          <img className="d-flex m-auto" src={values.imagePath} alt="blog card" width="80%"></img>
       </div>
       
       <div className="col-xs-12 col-sm-7 pt-3 pb-3">
         <h3 className="text-main-blue pt-lg-5 pt-3">
-            {props.title} 
+            {values.title} 
         </h3>
+        <h5> - {values.author}, {values.authorDesignation}</h5>
         <p>
-            {props.plot}
+            {values.plot}
         </p>
-        <Link to={`/blog/${props.link}`}>
+        <Link to={`/blog/${values.link}`}>
         <Button className="bg-main-blue pl-3 pr-3" style={ {borderRadius:"30px", border:"0px"}} size="lg" >Read More </Button>
         </Link>
         </div>

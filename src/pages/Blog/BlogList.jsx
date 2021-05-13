@@ -17,6 +17,7 @@ function BlogList()
                                 <CardBody>
                                 <CardText>
                                     <h3 className="text-main-blue">{blog.title}</h3>
+                                    <h5> - by {blog.author}, {blog.authorDesignation}</h5>
                                     {blog.plot}
                                 </CardText>
                                 <Link to={`/blog/${blog.link}`}>

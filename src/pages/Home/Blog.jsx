@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardBody, CardImg, CardTitle, CardText, Button} from 'reactstrap';
+import {Card, CardBody, CardImg, CardTitle, CardText, Button, CardSubtitle} from 'reactstrap';
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import blogs from '../Blog/blogs';
@@ -64,6 +64,9 @@ function BlogCard({obj}) {
         <CardImg className="border-bottom border-dark" top width="100%" src={obj.imagePath} alt="Card image cap" />
         <CardBody>
           <CardTitle className="h3 text-main-blue">{obj.title}</CardTitle>
+          <CardSubtitle className="h5 my-3">
+          -by {obj.author}, {obj.authorDesignation}
+          </CardSubtitle>
           <CardText>
             {obj.plot}
           </CardText>
